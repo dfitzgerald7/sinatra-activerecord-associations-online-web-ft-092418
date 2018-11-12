@@ -5,8 +5,9 @@ class CreateCats < ActiveRecord::Migration
       t.integer :age
       t.string :breed
     end
+    
   end
-  
+
   def down
     drop_table :cats
   end
